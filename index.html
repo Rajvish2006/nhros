@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>राष्ट्रीय मानवाधिकार ट्रस्ट</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <img src="../stockimages/logo.jpeg" alt="Logo" class="logo" />
+      <ul class="nav-links desktop-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact" class="contact-btn">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+
+    <nav class="side-nav" id="sideNav">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#" class="contact-btn">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>राष्ट्रीय मानवाधिकार नागरिक विकल्प चैरिटेबल ट्रस्ट</h1>
+      <p>गरीबों को न्याय और सामाजिक कार्यों के लिए समर्पित</p>
+      <a href="#about" class="cta">Social work</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-hero">
+      <div class="text">
+        <small style="color: red; font-weight: bold;">EMPOWERING JUSTICE</small>
+        <h1>Championing rights for all</h1>
+        <p>
+          राष्ट्रीय मानवाधिकार नागरिक विकल्प चैरिटेबल ट्रस्ट is dedicated to delivering justice to the underprivileged
+          while promoting social welfare. Based in Prayagraj, our organization tirelessly works towards ensuring
+          equality and safeguarding rights within the community. We believe that every individual deserves a voice and
+          the opportunity to stand up for their rights. Join us in our mission to create a fairer society where
+          everyone's rights are respected and upheld.
+        </p>
+        <a href="#">Get in touch</a>
+      </div>
+      <img
+        src="https://images.pexels.com/photos/12358293/pexels-photo-12358293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Holding hands" />
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p class="red-text">
+      EMPOWERING JUSTICE SOCIAL WORKER GANPAT PATIL NAGAR NEW LINK ROAD - FUNDAMENTAL RIGHTS, HIGH COURT, SUPREME COURT,
+      POOR PUBLIC WATER SUPPLY, ELECTRIC CONNECTIONS, DEVELOPMENT, BORIVALI WEST 400103. OUR AIMS: PUBLIC PROGRAMS AND
+      SOCIAL JUSTICE.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Legal aid">
+        <h3>Legal aid for the underprivileged &gt;</h3>
+        <p>Providing essential legal representation to those in need.</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/6185643/pexels-photo-6185643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Community awareness">
+        <h3>Community awareness programs &gt;</h3>
+        <p>Educating communities about their rights and responsibilities.</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/2088325/pexels-photo-2088325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Advocacy">
+        <h3>Advocacy for social justice &gt;</h3>
+        <p>Championing the cause of social justice for all.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section contact">
+    <h2>Connect with us for support and partnerships</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email address" required />
+      <input type="text" placeholder="Phone number" required />
+      <textarea rows="4" placeholder="Message"></textarea>
+    </form>
+    <br />
+    <iframe src="https://www.google.com/maps?q=Pura+Nandlal+Rd,+Uttar+Pradesh&output=embed"></iframe>
+  </section>
+  <footer>
+    <h4>राष्ट्रीय मानवाधिकार नागरिक विकल्प चैरिटेबल ट्रस्ट</h4>
+    <p>&copy; 2025 All Rights Reserved</p>
+    <p>Based in Prayagraj, India</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('sideNav');
+      nav.classList.toggle('open');
+    }
+  </script>
+</body>
+
+</html>
